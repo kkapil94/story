@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000 !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text{
+    font-size: xx-large;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5rem;
+    border: 2px solid gray;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.hero-text:hover{
+    transform: scale(1.05);
+}
+
+.hero-text a{
+    text-decoration: none;
+    color: antiquewhite;
+}

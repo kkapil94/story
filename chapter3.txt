@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-now,again he wake ups
-=======
-now,again his wake ups ok done branmch
->>>>>>> new-concept
