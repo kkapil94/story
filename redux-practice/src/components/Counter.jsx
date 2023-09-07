@@ -11,7 +11,7 @@ export function Counter(){
             <h1>Counter</h1>
             <div className="button-cont">
                 <button onClick={()=>dispatch(decCounterAction())}>Dec</button>
-                <span>{"counter"}</span>
+                <span>{counter}</span>
                 <button onClick={()=>dispatch(incCounterAction())}>Inc</button>
             </div>
         </div>

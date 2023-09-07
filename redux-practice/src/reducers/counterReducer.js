@@ -5,7 +5,7 @@ export const  counterReducer = (state=initialState,action)=>{
     switch (action.type) {
         case 'INC':return {
             ...state,
-            counter:action.payload
+            counter:state.counter+1
         }
         case 'DEC':{
             if (state.counter>0) {
