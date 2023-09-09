@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import AllMovies from "./components/AllMovies";
+import { lazy, Suspense } from "react";
 
 
+const AllMovies = lazy(()=>import('./components/AllMovies'))
 const AppLayout = ()=>{
     return(
         <>
@@ -23,7 +24,9 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/movies",
-                element:<AllMovies/>
+                element:<Suspense fallback={"Shimmer..."}>
+                            <AllMovies/>
+                        </Suspense>
             }
         ]
     }
