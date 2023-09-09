@@ -18,6 +18,7 @@ export function Counter(){
                 <span>{counter}</span>
                 {/* <button onClick={()=>incCounter()}>Inc</button> */}
                 <button onClick={()=>dispatch(incCounterAction())}>Inc</button>
+                <img src="../public/logo.png" alt="" />
             </div>
         </div>
     
