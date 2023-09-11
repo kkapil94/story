@@ -17,12 +17,15 @@
   },
   "homepage": "https://github.com/kkapil94/story#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "parcel": "^2.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
     "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "process": "^0.11.10"
   }
 }

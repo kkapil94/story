@@ -42,3 +42,31 @@ body{
     object-fit: cover;
     cursor: pointer;
 }
+
+.movie-container{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.movie-container div img{
+    width: 20rem;
+    object-fit: cover;
+    border: 1px solid wheat;
+}
+
+.movie-container div[id="div1"]{
+    padding:0 5rem;
+}
+#div2{
+    padding: 0 7rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+
+#div2 > span{
+    display: block;
+}
